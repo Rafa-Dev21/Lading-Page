@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Rafael Dev</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script
+    src="https://kit.fontawesome.com/7b2d87b3d6.js"
+    crossorigin="anonymous"
+  ></script>
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="navbar">
+
+      <h1 class="logo">Rafael Dev</h1>
+
+      <ul class="menu">
+
+        <li><a href="#sobre">Sobre</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projetos">Projetos</a></li>
+
+        <li><a href="#contato">Contato</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+
+    <section id="sobre" class="hero">
+
+      <div class="hero-text">
+
+        <span>👋 Olá, eu sou</span>
+
+        <h2 id="nome"></h2>
+
+        <h3 id="profissao"></h3>
+
+        <p id="descricao"></p>
+
+        <a href="#projetos">
+          <button>Ver Projetos</button>
+        </a>
+
+      </div>
+
+      <div class="hero-img">
+
+        <img
+          src="img/rafa.jpeg"
+          alt="Foto de perfil"
+        >
+
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="section">
+
+      <h2>Minhas Skills</h2>
+
+      <div
+        class="skills-container"
+        id="listaSkills"
+      ></div>
+
+    </section>
+
+    <!-- PROJETOS -->
+
+    <section id="projetos" class="section">
+
+      <h2>Projetos</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <i class="fa-solid fa-code"></i>
+
+          <h3>API HCStore</h3>
+
+          <p>
+            API REST completa utilizando
+            Node.js, Prisma ORM e MySQL.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <i class="fa-solid fa-ticket"></i>
+
+          <h3>Sistema de Rifas</h3>
+
+          <p>
+            Plataforma com autenticação,
+            gerenciamento e sorteios.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <i class="fa-solid fa-globe"></i>
+
+          <h3>Portfolio Web</h3>
+
+          <p>
+            Landing page moderna e
+            responsiva utilizando
+            HTML, CSS e JavaScript.
+          </p>
+
+        </div>
+
+          <div class="card">
+
+          <i class="fa-solid fa-globe"></i>
+
+          <h3>Star Kids</h3>
+
+          <p>
+            Aplicativo Mobile para
+            alfabetização de crianças.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <i class="fa-solid fa-globe"></i>
+
+          <h3>Orgulho Cacheado</h3>
+
+          <p>
+            Site de notícias sobre
+            o mundo dos cabelos cacheados e 
+            crespos.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTATO -->
+
+    <section
+      id="contato"
+      class="section contato"
+    >
+
+      <h2>Contato</h2>
+
+      <p id="email"></p>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>
+      © 2026 Rafael Dev • Todos os direitos reservados
+    </p>
+
+  </footer>
+
+  <script
+    type="module"
+    src="js/controller/perfilController.js"
+  ></script>
+
+</body>
+</html>
